@@ -7,7 +7,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
-  background-color: #ffffff;
+  background-color: #0ab91e;
   border-bottom: 1px solid #eee;
 }
 
@@ -73,7 +73,14 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-
+.primary-btn:hover{
+   border: 2px solid #cd0f7e;
+  transform: translateY(-5px); 
+}
+.secondary-btn:hover{
+   border: 2px solid #cd0f7e;
+  transform: translateY(-5px); 
+}
 .secondary-btn {
   background-color: transparent;
   color: #4f46e5;
@@ -176,9 +183,9 @@ body {
   text-align: center;
 }
 
-.pricing-card.highlight {
+/* .pricing-card.highlight {
   border: 2px solid #4f46e5;
-}
+} */
 
 .price {
   font-size: 26px;
@@ -212,3 +219,18 @@ body {
   background-color: #111;
   color: #fff;
 }
+.card {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid transparent; 
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: border 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  border: 2px solid #4F46E5;
+  transform: translateY(-5px); 
+}
+
+
