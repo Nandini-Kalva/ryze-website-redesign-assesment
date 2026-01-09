@@ -9,7 +9,7 @@ function Testimonials() {
             “Ryze helped us streamline our workflows and improve productivity
             significantly.”
           </p>
-          <h4>— Ananya Sharma, Startup Founder</h4>
+          <h4>— Pavani Gupta, Startup Founder</h4>
         </div>
 
         <div className="testimonial-card">
@@ -17,7 +17,7 @@ function Testimonials() {
             “The platform is easy to use and scalable. It fits perfectly with
             our growing business needs.”
           </p>
-          <h4>— Rahul Verma, Product Manager</h4>
+          <h4>— Ram Verma, Product Manager</h4>
         </div>
 
         <div className="testimonial-card">
@@ -25,7 +25,7 @@ function Testimonials() {
             “Excellent support and clean UI. Ryze made our digital transition
             smooth.”
           </p>
-          <h4>— Sneha Reddy, Business Owner</h4>
+          <h4>— Malathi Reddy, Business Owner</h4>
         </div>
       </div>
     </section>
