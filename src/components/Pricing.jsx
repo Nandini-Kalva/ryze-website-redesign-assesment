@@ -1,10 +1,10 @@
 function Pricing() {
   return (
-    <section className="pricing">
+    <section className="pricing ">
       <h2>Simple, transparent pricing</h2>
 
-      <div className="pricing-grid">
-        <div className="pricing-card">
+      <div className="pricing-grid ">
+        <div className="pricing-card card">
           <h3>Basic</h3>
           <p className="price">₹999 / month</p>
           <ul>
@@ -15,7 +15,7 @@ function Pricing() {
           <button className="pricing-btn">Get Started</button>
         </div>
 
-        <div className="pricing-card highlight">
+        <div className="pricing-card highlight card">
           <h3>Pro</h3>
           <p className="price">₹1999 / month</p>
           <ul>
@@ -26,7 +26,7 @@ function Pricing() {
           <button className="pricing-btn">Get Started</button>
         </div>
 
-        <div className="pricing-card">
+        <div className="pricing-card card">
           <h3>Enterprise</h3>
           <p className="price">Custom</p>
           <ul>
